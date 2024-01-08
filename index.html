@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>WebMon Design</title>
+  </head>
+  <body>
+    <header>
+      <img src="" alt="placeholder" />
+      <nav>
+        <a id="about-btn">About</a>
+        <a id="pricing-btn">Pricing</a>
+        <a id="gallery-btn">Previous work</a>
+        <a class="key-btn" id="contact-btn">Contact us</a>
+      </nav>
+    </header>
+    <form-container>
+      <form action="">
+        <label for="first-name">First Name</label>
+        <input
+          id="first-name"
+          autocomplete="name"
+          type="text"
+          accept="charset"
+        />
+        <label for="last-name">Last Name</label>
+        <input
+          id="last-name"
+          autocomplete="name"
+          type="text"
+          accept="charset"
+        />
+        <label for="email">Email</label>
+        <input id="email" type="email" accept="email" />
+        <label for="message"> Message </label>
+        <input id="message" type= />
+        <button class="key-btn" type="submit">Submit</button>
+      </form></form-container
+    >
+    <main>
+      <about class="content">
+        <sub-header><h2>About us</h2></sub-header>
+        <p>some content about us</p>
+      </about>
+      <pricing class="content">
+        <sub-header><h2>Service Tiers</h2></sub-header>
+        <price-cards>
+          <price-card>
+            <price-card-header>Tier One</price-card-header>
+          </price-card>
+          <price-card
+            ><price-card-header>Tier Two</price-card-header></price-card
+          >
+          <price-card
+            ><price-card-header>Tier Three</price-card-header></price-card
+          >
+        </price-cards>
+      </pricing>
+      <gallery class="content">some content</gallery>
+    </main>
+    <footer>footer place holder</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
