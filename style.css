@@ -176,7 +176,6 @@ form > textarea {
 @media (max-width: 600px) {
   header {
     display: grid;
-    gap: 0;
     padding-bottom: 3rem;
     justify-content: center;
     min-height: 10%;
@@ -185,6 +184,14 @@ form > textarea {
   header > a {
     justify-self: center;
     margin: 5px 0;
+  }
+  header > .icon {
+    display: flex;
+    justify-content: center;
+  }
+  header > a > img {
+    width: 60%;
+    justify-self: center;
   }
   nav {
     font-size: 0.9rem;
