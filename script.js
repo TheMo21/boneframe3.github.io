@@ -3,7 +3,8 @@ const aboutBtn = document.getElementById("about-btn");
 const pricingBtn = document.getElementById("pricing-btn");
 const galleryBtn = document.getElementById("gallery-btn");
 const contactBtn = document.getElementById("contact-btn");
-const form = document.querySelector("form-container");
+const formContainer = document.querySelector("form-container");
+const body = document.querySelector("body");
 
 // get all content blocks
 const contentNodes = document.querySelectorAll(".content");
@@ -17,15 +18,24 @@ aboutBtn.onclick = () => {
   scrollToNode(0);
 };
 
-pricingBtn.onclick = () => {
+galleryBtn.onclick = () => {
   scrollToNode(1);
 };
 
-galleryBtn.onclick = () => {
-  scrollToNode(2);
+contactBtn.onclick = () => {
+  formContainer.classList.toggle("show");
+  body.classList.toggle("disable-scrolling");
 };
 
-contactBtn.onclick = () => {
-  console.log(form);
-  form.classList.toggle(".show");
-};
+window.addEventListener("click", (event) => {
+  let form = document.querySelector("form");
+
+  if (
+    event.target.parentNode !== form &&
+    event.target !== contactBtn &&
+    formContainer.classList.contains("show")
+  ) {
+    formContainer.classList.remove("show");
+    body.classList.remove("disable-scrolling");
+  }
+});

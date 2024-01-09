@@ -8,57 +8,59 @@
   </head>
   <body>
     <header>
-      <img src="" alt="placeholder" />
+      <img src="alt" ="placeholder" />
       <nav>
-        <a id="about-btn">About</a>
-        <a id="pricing-btn">Pricing</a>
-        <a id="gallery-btn">Previous work</a>
-        <a class="key-btn" id="contact-btn">Contact us</a>
+        <a id="about-btn">About me</a>
+        <a id="gallery-btn">Projects</a>
+        <a class="key-btn" id="contact-btn">Contact me</a>
       </nav>
     </header>
     <form-container>
       <form action="">
-        <label for="first-name">First Name</label>
+        <label for="first-name" name="first-name">First Name</label>
         <input
           id="first-name"
           autocomplete="name"
           type="text"
           accept="charset"
+          required
         />
         <label for="last-name">Last Name</label>
         <input
           id="last-name"
+          name="last-name"
           autocomplete="name"
           type="text"
           accept="charset"
         />
         <label for="email">Email</label>
-        <input id="email" type="email" accept="email" />
-        <label for="message"> Message </label>
-        <input id="message" type= />
+        <input id="email" name="email" type="email" accept="email" required />
+        <label for="message"> Message</label>
+        <textarea
+          id="message"
+          name="message"
+          maxlength="500"
+          required
+        ></textarea>
         <button class="key-btn" type="submit">Submit</button>
-      </form></form-container
-    >
+      </form>
+    </form-container>
     <main>
       <about class="content">
-        <sub-header><h2>About us</h2></sub-header>
-        <p>some content about us</p>
+        <sub-header><h2>About me</h2></sub-header>
+        <p>
+          Welcome to my personal site, my name is Mulder Liu and I am currently
+          studying computer science in university. I am interested in becoming a
+          fullstack web developer, and I have experience working with languages
+          such as HTML, CSS, Javascript, and Python. I am also getting better at
+          technologies like React, and Django. Feel free to check out some of my
+          projects below!
+        </p>
       </about>
-      <pricing class="content">
-        <sub-header><h2>Service Tiers</h2></sub-header>
-        <price-cards>
-          <price-card>
-            <price-card-header>Tier One</price-card-header>
-          </price-card>
-          <price-card
-            ><price-card-header>Tier Two</price-card-header></price-card
-          >
-          <price-card
-            ><price-card-header>Tier Three</price-card-header></price-card
-          >
-        </price-cards>
-      </pricing>
-      <gallery class="content">some content</gallery>
+
+      <gallery class="content">
+        <sub-header><h2>Projects</h2></sub-header>
+      </gallery>
     </main>
     <footer>footer place holder</footer>
     <script src="script.js"></script>
