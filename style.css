@@ -25,7 +25,12 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   background-color: var(--background-color);
+}
+
+header > a {
+  margin-left: 2%;
 }
 
 nav {
@@ -90,15 +95,25 @@ about {
   justify-content: center;
   flex-direction: row;
   height: 25rem;
+
+  max-height: fit-content;
   justify-self: center;
 }
 
 about > p {
-  line-break: auto;
   width: 30%;
+  height: fit-content;
+  padding: 1rem;
   justify-self: center;
+  line-break: auto;
   line-height: 1.5;
   text-indent: 5%;
+  font-size: large;
+  text-shadow: 1px 0 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  /* border-radius: 10px; */
+  border: 1px solid black;
 }
 
 footer {
@@ -158,12 +173,14 @@ form > textarea {
   header {
     display: grid;
     gap: 0;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
     justify-content: center;
-    height: 10%;
+    min-height: 10%;
+    max-height: max-content;
   }
-  header > img {
-    display: none;
+  header > a {
+    justify-self: center;
+    margin: 5px 0;
   }
   nav {
     font-size: 0.9rem;
@@ -171,7 +188,7 @@ form > textarea {
   }
 
   about > p {
-    width: 100%;
+    width: 90%;
   }
 
   form {

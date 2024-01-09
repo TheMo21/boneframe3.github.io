@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="42.013 90.187 439.076 135.486" xmlns="http://www.w3.org/2000/svg" width="20rem">
+  <rect x="49.921" y="96.028" width="421.309" height="121.849" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 0, 0)"/>
+  <path d="M 347.635 102.672 L 347.635 209.138 L 48.685 209.138 L 48.685 102.672 L 347.635 102.672 Z M 49.685 208.138 L 346.635 208.138 C 296.953 218.803 134.874 47.672 377.614 11.769 L 49.685 103.672 L 49.685 208.138 Z" style="fill: none;" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 0, 0)"/>
+  <text style="font-family: Arial, sans-serif; font-size: 68px; font-weight: 700; text-transform: uppercase; white-space: pre;" x="70.692" y="180.936" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 0, 0)">Dev</text>
+  <ellipse style="stroke: rgb(0, 0, 0); transform-origin: 245.052px 157.402px;" cx="245.052" cy="157.402" rx="4" ry="4" transform="matrix(0.999657928944, 0.026163997129, -0.019966000691, 0.999820113182, -22.321965138903, -0.505452922316)"/>
+  <text style="font-family: Arial, sans-serif; font-size: 68px; font-weight: 700; white-space: pre;" x="237.668" y="180.879" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 0, 0)">MODE</text>
+</svg>
