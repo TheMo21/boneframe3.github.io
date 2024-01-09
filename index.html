@@ -16,25 +16,19 @@
       </nav>
     </header>
     <form-container>
-      <form action="">
-        <label for="first-name" name="first-name">First Name</label>
+      <form action="https://formspree.io/f/xdoqoqrz" method="post">
+        <label for="name">Name</label>
         <input
           id="first-name"
+          name="name"
           autocomplete="name"
           type="text"
-          accept="charset"
           required
-        />
-        <label for="last-name">Last Name</label>
-        <input
-          id="last-name"
-          name="last-name"
-          autocomplete="name"
-          type="text"
-          accept="charset"
         />
         <label for="email">Email</label>
         <input id="email" name="email" type="email" accept="email" required />
+        <label for="name">Subject</label>
+        <input id="subject" name="subject" type="text" required />
         <label for="message"> Message</label>
         <textarea
           id="message"
