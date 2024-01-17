@@ -14,10 +14,6 @@ body {
   height: 100%;
 }
 
-.disable-scrolling {
-  overflow: hidden;
-}
-
 header {
   width: 100%;
   height: 15%;

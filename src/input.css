@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.hide {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(200px);
+  transition: 280ms all ease-in-out;
+}
+
+.show {
+  opacity: 100%;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.disable-scrolling {
+  overflow: hidden;
+}
